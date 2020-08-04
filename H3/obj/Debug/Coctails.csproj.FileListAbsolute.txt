@@ -1,0 +1,12 @@
+C:\Users\eadr\source\repos\H3\H3\bin\Debug\H3.exe.config
+C:\Users\eadr\source\repos\H3\H3\bin\Debug\H3.exe
+C:\Users\eadr\source\repos\H3\H3\bin\Debug\H3.pdb
+C:\Users\eadr\source\repos\H3\H3\bin\Debug\EntityFramework.dll
+C:\Users\eadr\source\repos\H3\H3\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\eadr\source\repos\H3\H3\bin\Debug\EntityFramework.xml
+C:\Users\eadr\source\repos\H3\H3\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\eadr\source\repos\H3\H3\obj\Debug\Coctails.csprojAssemblyReference.cache
+C:\Users\eadr\source\repos\H3\H3\obj\Debug\Coctails.csproj.CoreCompileInputs.cache
+C:\Users\eadr\source\repos\H3\H3\obj\Debug\Coctails.csproj.CopyComplete
+C:\Users\eadr\source\repos\H3\H3\obj\Debug\H3.exe
+C:\Users\eadr\source\repos\H3\H3\obj\Debug\H3.pdb
