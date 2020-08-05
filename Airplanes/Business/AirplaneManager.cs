@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.Entity;
 
 namespace Airplanes.Business
 {
@@ -49,6 +50,25 @@ namespace Airplanes.Business
                 context.Airplanes.Remove(airplane);
                 context.SaveChanges();
             }
+        }
+
+        /// <summary>
+        /// Get all the airplanes and the underlying children
+        /// </summary>
+        /// <returns></returns>
+        public List<Airplane> GetAirplanes()
+        {
+            List<Airplane> airplanes = new List<Airplane>();
+
+            using (var context = new AirplanesEntities())
+            {
+                airplanes = context.Airplanes
+                    .Include((obj) => obj.Airline)
+                    .Include((obj) => obj.Airport)
+                    .Include((obj) => obj.Airport1).ToList();
+            }
+
+            return airplanes;
         }
 
         /// <summary>

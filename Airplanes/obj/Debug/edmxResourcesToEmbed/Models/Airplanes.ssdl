@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AirplanesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Airlines">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Airplanes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OwnedById" Type="int" Nullable="false" />
+    <Property Name="CurrentAirportId" Type="int" />
+    <Property Name="NextDestinationId" Type="int" />
+  </EntityType>
+  <EntityType Name="Airports">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="IATA" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="CountryId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Countrys">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Airplanes__Curre__2B3F6F97">
+    <End Role="Airports" Type="Self.Airports" Multiplicity="0..1" />
+    <End Role="Airplanes" Type="Self.Airplanes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Airports">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Airplanes">
+        <PropertyRef Name="CurrentAirportId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Airplanes__NextD__2A4B4B5E">
+    <End Role="Airlines" Type="Self.Airlines" Multiplicity="1" />
+    <End Role="Airplanes" Type="Self.Airplanes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Airlines">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Airplanes">
+        <PropertyRef Name="OwnedById" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Airplanes__NextD__2C3393D0">
+    <End Role="Airports" Type="Self.Airports" Multiplicity="0..1" />
+    <End Role="Airplanes" Type="Self.Airplanes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Airports">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Airplanes">
+        <PropertyRef Name="NextDestinationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Airports__Countr__276EDEB3">
+    <End Role="Countrys" Type="Self.Countrys" Multiplicity="1" />
+    <End Role="Airports" Type="Self.Airports" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Countrys">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Airports">
+        <PropertyRef Name="CountryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AirplanesModelStoreContainer">
+    <EntitySet Name="Airlines" EntityType="Self.Airlines" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Airplanes" EntityType="Self.Airplanes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Airports" EntityType="Self.Airports" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Countrys" EntityType="Self.Countrys" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Airplanes__Curre__2B3F6F97" Association="Self.FK__Airplanes__Curre__2B3F6F97">
+      <End Role="Airports" EntitySet="Airports" />
+      <End Role="Airplanes" EntitySet="Airplanes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Airplanes__NextD__2A4B4B5E" Association="Self.FK__Airplanes__NextD__2A4B4B5E">
+      <End Role="Airlines" EntitySet="Airlines" />
+      <End Role="Airplanes" EntitySet="Airplanes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Airplanes__NextD__2C3393D0" Association="Self.FK__Airplanes__NextD__2C3393D0">
+      <End Role="Airports" EntitySet="Airports" />
+      <End Role="Airplanes" EntitySet="Airplanes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Airports__Countr__276EDEB3" Association="Self.FK__Airports__Countr__276EDEB3">
+      <End Role="Countrys" EntitySet="Countrys" />
+      <End Role="Airports" EntitySet="Airports" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

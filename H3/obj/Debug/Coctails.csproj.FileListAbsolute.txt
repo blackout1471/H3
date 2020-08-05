@@ -10,3 +10,15 @@ C:\Users\eadr\source\repos\H3\H3\obj\Debug\Coctails.csproj.CoreCompileInputs.cac
 C:\Users\eadr\source\repos\H3\H3\obj\Debug\Coctails.csproj.CopyComplete
 C:\Users\eadr\source\repos\H3\H3\obj\Debug\H3.exe
 C:\Users\eadr\source\repos\H3\H3\obj\Debug\H3.pdb
+C:\repos\H3\H3\bin\Debug\H3.exe.config
+C:\repos\H3\H3\bin\Debug\H3.exe
+C:\repos\H3\H3\bin\Debug\H3.pdb
+C:\repos\H3\H3\bin\Debug\EntityFramework.dll
+C:\repos\H3\H3\bin\Debug\EntityFramework.SqlServer.dll
+C:\repos\H3\H3\bin\Debug\EntityFramework.xml
+C:\repos\H3\H3\bin\Debug\EntityFramework.SqlServer.xml
+C:\repos\H3\H3\obj\Debug\Coctails.csprojAssemblyReference.cache
+C:\repos\H3\H3\obj\Debug\Coctails.csproj.CoreCompileInputs.cache
+C:\repos\H3\H3\obj\Debug\Coctails.csproj.CopyComplete
+C:\repos\H3\H3\obj\Debug\H3.exe
+C:\repos\H3\H3\obj\Debug\H3.pdb

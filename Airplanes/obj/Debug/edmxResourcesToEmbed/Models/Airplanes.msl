@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AirplanesModelStoreContainer" CdmEntityContainer="AirplanesEntities">
+    <EntitySetMapping Name="Airlines">
+      <EntityTypeMapping TypeName="AirplanesModel.Airline">
+        <MappingFragment StoreEntitySet="Airlines">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Airplanes">
+      <EntityTypeMapping TypeName="AirplanesModel.Airplane">
+        <MappingFragment StoreEntitySet="Airplanes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="OwnedById" ColumnName="OwnedById" />
+          <ScalarProperty Name="CurrentAirportId" ColumnName="CurrentAirportId" />
+          <ScalarProperty Name="NextDestinationId" ColumnName="NextDestinationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Airports">
+      <EntityTypeMapping TypeName="AirplanesModel.Airport">
+        <MappingFragment StoreEntitySet="Airports">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IATA" ColumnName="IATA" />
+          <ScalarProperty Name="CountryId" ColumnName="CountryId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Countrys">
+      <EntityTypeMapping TypeName="AirplanesModel.Country">
+        <MappingFragment StoreEntitySet="Countrys">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

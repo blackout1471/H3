@@ -51,6 +51,22 @@ namespace Airplanes.Business
         }
 
         /// <summary>
+        /// Get all the countries
+        /// </summary>
+        /// <returns></returns>
+        public List<Country> GetAllCountries()
+        {
+            List<Country> countries = new List<Country>();
+
+            using (var context = new AirplanesEntities())
+            {
+                countries = context.Countrys.ToList();
+            }
+
+            return countries;
+        }
+
+        /// <summary>
         /// Creates a airport from the airport object
         /// </summary>
         /// <param name="airport"></param>
@@ -75,6 +91,22 @@ namespace Airplanes.Business
                 context.Airports.Remove(airport);
                 context.SaveChanges();
             }
+        }
+
+        /// <summary>
+        /// Get all the airports
+        /// </summary>
+        /// <returns></returns>
+        public List<Airport> GetAllAirports()
+        {
+            List<Airport> airports = new List<Airport>();
+
+            using (var context = new AirplanesEntities())
+            {
+                airports = context.Airports.ToList();
+            }
+
+            return airports;
         }
 
         /// <summary>

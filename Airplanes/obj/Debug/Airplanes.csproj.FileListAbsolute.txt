@@ -1,0 +1,12 @@
+C:\repos\H3\Airplanes\bin\Debug\Airplanes.exe.config
+C:\repos\H3\Airplanes\bin\Debug\Airplanes.exe
+C:\repos\H3\Airplanes\bin\Debug\Airplanes.pdb
+C:\repos\H3\Airplanes\bin\Debug\EntityFramework.dll
+C:\repos\H3\Airplanes\bin\Debug\EntityFramework.SqlServer.dll
+C:\repos\H3\Airplanes\bin\Debug\EntityFramework.xml
+C:\repos\H3\Airplanes\bin\Debug\EntityFramework.SqlServer.xml
+C:\repos\H3\Airplanes\obj\Debug\Airplanes.csprojAssemblyReference.cache
+C:\repos\H3\Airplanes\obj\Debug\Airplanes.csproj.CoreCompileInputs.cache
+C:\repos\H3\Airplanes\obj\Debug\Airplanes.csproj.CopyComplete
+C:\repos\H3\Airplanes\obj\Debug\Airplanes.exe
+C:\repos\H3\Airplanes\obj\Debug\Airplanes.pdb

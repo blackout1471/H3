@@ -52,6 +52,22 @@ namespace Airplanes.Business
         }
 
         /// <summary>
+        /// Get all the airlines
+        /// </summary>
+        /// <returns></returns>
+        public List<Airline> GetAirlines()
+        {
+            List<Airline> airlines = new List<Airline>();
+            
+            using (var context = new AirplanesEntities())
+            {
+                airlines = context.Airlines.ToList();
+            }
+
+            return airlines;
+        }
+
+        /// <summary>
         /// Search airline by a name
         /// </summary>
         /// <param name="name"></param>

@@ -52,13 +52,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BulletMenu.cs" />
+    <Compile Include="GUI\AirlineMenu.cs" />
+    <Compile Include="GUI\AirplaneMenu.cs" />
+    <Compile Include="GUI\AirportMenu.cs" />
+    <Compile Include="GUI\BulletMenu.cs" />
     <Compile Include="Business\AirlineManager.cs" />
     <Compile Include="Business\AirplaneManager.cs" />
     <Compile Include="Business\AirportManager.cs" />
-    <Compile Include="MainMenu.cs" />
-    <Compile Include="Menu.cs" />
-    <Compile Include="MenuManager.cs" />
+    <Compile Include="GUI\MainMenu.cs" />
+    <Compile Include="GUI\Menu.cs" />
+    <Compile Include="GUI\MenuManager.cs" />
     <Compile Include="Models\Airline.cs">
       <DependentUpon>Airplanes.tt</DependentUpon>
     </Compile>
