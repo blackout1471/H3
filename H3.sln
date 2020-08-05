@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coctails", "H3\Coctails.csproj", "{98609128-E821-4A62-A646-201D0879ED0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Airplanes", "Airplanes\Airplanes.csproj", "{6F294868-AF29-4AA9-BA92-8E78C4D45C0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{98609128-E821-4A62-A646-201D0879ED0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98609128-E821-4A62-A646-201D0879ED0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98609128-E821-4A62-A646-201D0879ED0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F294868-AF29-4AA9-BA92-8E78C4D45C0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F294868-AF29-4AA9-BA92-8E78C4D45C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F294868-AF29-4AA9-BA92-8E78C4D45C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F294868-AF29-4AA9-BA92-8E78C4D45C0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
