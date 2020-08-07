@@ -1,0 +1,12 @@
+C:\repos\H3\WrittenProject\bin\Debug\WrittenProject.exe.config
+C:\repos\H3\WrittenProject\bin\Debug\WrittenProject.exe
+C:\repos\H3\WrittenProject\bin\Debug\WrittenProject.pdb
+C:\repos\H3\WrittenProject\bin\Debug\EntityFramework.dll
+C:\repos\H3\WrittenProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\repos\H3\WrittenProject\bin\Debug\EntityFramework.xml
+C:\repos\H3\WrittenProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\repos\H3\WrittenProject\obj\Debug\WrittenProject.csprojAssemblyReference.cache
+C:\repos\H3\WrittenProject\obj\Debug\WrittenProject.csproj.CoreCompileInputs.cache
+C:\repos\H3\WrittenProject\obj\Debug\WrittenProject.csproj.CopyComplete
+C:\repos\H3\WrittenProject\obj\Debug\WrittenProject.exe
+C:\repos\H3\WrittenProject\obj\Debug\WrittenProject.pdb
