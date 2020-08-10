@@ -1,18 +1,22 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ReneComponentComponent } from './rene-component/rene-component.component';
+import { RectangleComponent } from './rectangle/rectangle.component';
+import { SquareComponent } from './square/square.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ReneComponentComponent
+    RectangleComponent,
+    SquareComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

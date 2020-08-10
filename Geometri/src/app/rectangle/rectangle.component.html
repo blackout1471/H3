@@ -1,0 +1,21 @@
+<h1>Rectangle Area Calculator</h1>
+
+<label>x</label>
+<input type="text" class="form-control" id="name"
+       required
+       [(ngModel)]="model.x" name="x">
+
+<br />
+<br />
+<label>y</label>
+<input type="text" class="form-control" id="y"
+       required
+       [(ngModel)]="model.y" name="name">
+
+<br />
+<br />
+<button name="button" (click)="Calculate()">Calculate</button>
+<br />
+<br />
+<p>Area Resultat: {{areaResult}}</p>
+<p>Perimeter Resultat: {{perimeterResult}}</p>

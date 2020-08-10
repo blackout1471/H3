@@ -1,0 +1,14 @@
+<h1>Square Area Calculator</h1>
+
+<label>x</label>
+<input type="text" class="form-control" id="name"
+       required
+       [(ngModel)]="model.x" name="x">
+
+<br />
+<br />
+<button name="button" (click)="Calculate()">Calculate</button>
+<br />
+<br />
+<p>Area Resultat: {{areaResult}}</p>
+<p>Perimeter Result {{perimeterResult}}</p>
