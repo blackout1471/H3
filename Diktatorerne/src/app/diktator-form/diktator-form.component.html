@@ -1,0 +1,8 @@
+<form [formGroup]="dictatorData" (ngSubmit)="onDictatorAdded()">
+  <label>firstName:<input type="text" name="firstNameInput" formControlName="firstName" /></label><br />
+  <label>lastName:<input type="text" name="lastNameInput" formControlName="lastName" /></label><br />
+  <label>Year of birth:<input type="text" name="birthYearInput" formControlName="birthYear" /></label><br />
+  <label>year of Death:<input type="text" name="yearOfDeathInput" formControlName="yearOfDeath" /></label><br />
+  <label>Description:<input type="text" name="descriptionInput" formControlName="description" /></label><br />
+  <input type="submit" value="Add Dictator" />
+</form>

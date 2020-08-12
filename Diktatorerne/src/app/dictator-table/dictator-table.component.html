@@ -1,0 +1,21 @@
+<table>
+  <thead>
+  <th scope="col">#</th>
+  <th scope="col">FirstName</th>
+  <th scope="col">LastName</th>
+  <th scope="col">Year Of Birth</th>
+  <th scope="col">Year Of Death</th>
+  <th scope="col">Description</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let dictator of dictatorData; let i = index">
+      <th>{{i}}</th>
+      <td>{{dictator.firstName}}</td>
+      <td>{{dictator.lastName}}</td>
+      <td>{{dictator.yearOfBirth}}</td>
+      <td>{{dictator.yearOfDeath}}</td>
+      <td>{{dictator.description}}</td>
+      <td><button (click)="onRemoveBtn(i)">Remove</button></td>
+    </tr>
+  </tbody>
+</table>
