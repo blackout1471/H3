@@ -1,0 +1,15 @@
+.sm-text {
+    font-size: 8px;
+}
+
+.md-text {
+    font-size: 10px;
+}
+
+.bg-text {
+    font-size: 20px;
+}
+
+.bold-text {
+    font-weight:bolder;
+}

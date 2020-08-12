@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\element",
+    "\\src\\app\\periodic-table"
+  ],
+  "SelectedNode": "\\src\\app\\periodic-service.service.ts",
+  "PreviewInSolutionExplorer": false
+}
