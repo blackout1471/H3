@@ -9,10 +9,10 @@ import { PeriodicElement } from '../PeriodicElement';
 export class ElementComponent implements OnInit {
 
   @Input('Element')
-  element: PeriodicElement = new PeriodicElement(0, 0, "UK", "Unknown", 0, 0);
+  element: PeriodicElement = new PeriodicElement(0, 0, 0, "UK", "Unknown", 0, 0);
 
   @Input('Color')
-  color: string = "White"; // Lime color
+  color: string = "White"; // White color
 
 
   constructor() { }

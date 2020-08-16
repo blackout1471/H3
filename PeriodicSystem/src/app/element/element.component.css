@@ -13,3 +13,24 @@
 .bold-text {
     font-weight:bolder;
 }
+
+.hidden-items {
+    display:none;
+}
+
+.fronItem {
+    display:block;
+    font-weight:bold;
+    font-size:25px;
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.showItems:hover .hidden-items {
+  display: block;
+}
+
+.showItems:hover .fronItem {
+  display: none;
+}

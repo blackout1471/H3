@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PeriodicServiceService } from '../periodic-service.service';
+import { PeriodicElement } from '../PeriodicElement';
 
 @Component({
   selector: 'app-periodic-table',
@@ -8,9 +9,28 @@ import { PeriodicServiceService } from '../periodic-service.service';
 })
 export class PeriodicTableComponent implements OnInit {
 
+  elementData: PeriodicElement[][];
+
+  colorGroups: string[] = [
+    'Aquamarine',
+    'Blue',
+    'Green',
+    'Yellow',
+    'Red',
+    'Gray',
+    'Lime',
+    'Olive',
+    'Beige',
+    'Coral',
+    'DarkMagenta',
+    'Gainsboro',
+    'Gray',
+    'Gold'
+  ];
+
   constructor(private service: PeriodicServiceService)
   {
-    console.log(service.jsonArr);
+    this.elementData = service.data;
   }
 
   ngOnInit(): void {

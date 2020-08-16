@@ -1,1 +1,7 @@
-<p>periodic-table works!</p>
+<div class="container-fluid">
+  <div class="row" *ngFor="let elementGroup of elementData; let i = index">
+    <div style="width:5.5%" *ngFor="let element of elementGroup">
+      <app-element *ngIf="element" [Element]="element" [Color]="colorGroups[element.getGroup()]"></app-element>
+    </div>
+  </div>
+</div>

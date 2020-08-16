@@ -6,6 +6,6 @@
     "\\src\\app\\element",
     "\\src\\app\\periodic-table"
   ],
-  "SelectedNode": "\\src\\app\\periodic-service.service.ts",
+  "SelectedNode": "\\src\\app\\element\\element.component.ts",
   "PreviewInSolutionExplorer": false
 }
