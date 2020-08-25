@@ -1,0 +1,12 @@
+C:\Users\eadr\source\repos\H3\Haevekort2\bin\Debug\Haevekort2.exe.config
+C:\Users\eadr\source\repos\H3\Haevekort2\bin\Debug\Haevekort2.exe
+C:\Users\eadr\source\repos\H3\Haevekort2\bin\Debug\Haevekort2.pdb
+C:\Users\eadr\source\repos\H3\Haevekort2\bin\Debug\Castle.Core.dll
+C:\Users\eadr\source\repos\H3\Haevekort2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\eadr\source\repos\H3\Haevekort2\bin\Debug\Castle.Core.xml
+C:\Users\eadr\source\repos\H3\Haevekort2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\eadr\source\repos\H3\Haevekort2\obj\Debug\Haevekort2.csproj.CoreCompileInputs.cache
+C:\Users\eadr\source\repos\H3\Haevekort2\obj\Debug\Haevekort2.csproj.CopyComplete
+C:\Users\eadr\source\repos\H3\Haevekort2\obj\Debug\Haevekort2.exe
+C:\Users\eadr\source\repos\H3\Haevekort2\obj\Debug\Haevekort2.pdb
+C:\Users\eadr\source\repos\H3\Haevekort2\obj\Debug\Haevekort2.csprojAssemblyReference.cache
