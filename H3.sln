@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WrittenProject", "WrittenPr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rene", "Rene\Rene.csproj", "{AD21548B-5D61-41DB-B324-0B7FA0572E3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haevekort2", "Haevekort2\Haevekort2.csproj", "{C464F292-98EF-4F02-9373-FD0787EB0B3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaevekortUnitTest", "HaevekortUnitTest\HaevekortUnitTest.csproj", "{309FA84F-C18D-49C9-B540-D545681956F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{AD21548B-5D61-41DB-B324-0B7FA0572E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD21548B-5D61-41DB-B324-0B7FA0572E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD21548B-5D61-41DB-B324-0B7FA0572E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C464F292-98EF-4F02-9373-FD0787EB0B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C464F292-98EF-4F02-9373-FD0787EB0B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C464F292-98EF-4F02-9373-FD0787EB0B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C464F292-98EF-4F02-9373-FD0787EB0B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{309FA84F-C18D-49C9-B540-D545681956F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{309FA84F-C18D-49C9-B540-D545681956F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{309FA84F-C18D-49C9-B540-D545681956F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{309FA84F-C18D-49C9-B540-D545681956F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
